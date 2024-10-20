@@ -35,30 +35,7 @@ The following equipment was used during the hackathon:
 ### Advanced Problem
 - **Image Identification**: A machine learning model identifies paintings from a given database. The identification process prioritizes accuracy, energy consumption, and time efficiency.
   
-## Folder Structure
-├── BasicProblem │ ├── imu_photo.py # Code for capturing photos based on IMU magnetic field data │ ├── image_segmentation.py # Code for calculating image center │ ├── requirements.txt # Dependencies for running the project ├── AdvancedProblem │ ├── image_identification.py # Code for identifying images from the database │ ├── image_database/ # Folder containing the painting dataset ├── README.md # This file
 
-## How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/cubetech-hackathon-solutions.git
-Navigate to the respective challenge directory and install the dependencies:
-
-cd BasicProblem
-pip install -r requirements.txt
-Run the code:
-
-python imu_photo.py
-For the advanced problem, navigate to the AdvancedProblem folder and run the image identification code.
-
-Testing and Scoring
-The testing for both problems was conducted in a simulated space environment with magnetic fields and rotating platforms. Points were awarded based on time, energy consumption, and accuracy of image capture and identification.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-You can copy this directly into your `README.md` file on GitHub. Just remember to replace the link to the repository with your actual GitHub URL!
 
 
 
